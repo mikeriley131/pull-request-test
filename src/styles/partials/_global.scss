@@ -1,10 +1,17 @@
-// ===========================================================================
-// ==== GLOBAL ELEMENTS
-// ===========================================================================
+@use '../variables' as *;
+
+/* ===========================================================================
+====== GLOBAL ELEMENTS
+=============================================================================
+*/
 body {
   background: $bg-clr;
   font-family: $font-med;
   width: 100%;
+}
+
+ul {
+  list-style: none;
 }
 
 main,
@@ -19,18 +26,12 @@ footer {
     }
   }
 
-  ul {
-    list-style: none;
-  }
-
   ul.aligned-list {
     list-style: disc;
     margin-left: $space-300;
 
     li {
       margin-bottom: $space-300;
-      padding-left: $space-500;
-      text-indent: -$space-500;
     }
   }
 
@@ -45,13 +46,6 @@ footer {
       color: $link-hover-clr;
     }
   }
-}
-
-.container {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 h1,
@@ -138,10 +132,14 @@ td {
 }
 
 .container {
-  padding: 0 $space-300;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   max-width: $container-width;
+  padding: 0 $space-300;
   width: 100%;
 
   @include mq($L) {
