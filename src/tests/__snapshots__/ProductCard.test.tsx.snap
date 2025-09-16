@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProductCard > renders 1`] = `"<div><div class="product-card"><img src="/test.png"><h2>Test Product</h2><h5>Some Author</h5><p>This is a test product</p><ul class="aligned-list"><li>one</li><li>two</li><li>three</li></ul><button>Add</button><div>♡</div></div></div>"`;

@@ -77,7 +77,20 @@ export default [
     features: [
       'Fresh perspective to reexamine the principles',
       'Updated examples and a new chapter on mobile usability',
-      'feature 3',
     ],
+  },
+  {
+    id: 6,
+    imgSrc: 'https://m.media-amazon.com/images/I/71e9V4ZSW3L._SY522_.jpg',
+    name: 'Atomic Design',
+    author: 'Brad Frost',
+    description:
+      "Atomic Design details all that goes into creating and maintaining robust design systems, allowing you to roll out higher quality, more consistent UIs faster than ever before. This book introduces a methodology for thinking of our UIs as thoughtful hierarchies, discusses the qualities of effective pattern libraries, and showcases techniques to transform your team's design and development workflow.",
+    features: [
+      'Introduces a methodology for thinking of our UIs as thoughtful hierarchies',
+      'Discusses the qualities of effective pattern libraries',
+      "Showcases techniques to transform your team's design and development workflow.",
+    ],
+    price: 39.95,
   },
 ];

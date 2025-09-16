@@ -1,0 +1,46 @@
+.product-card {
+  width: 400px;
+  position: relative;
+  height: 600px;
+  background-color: $color-grey-8;
+  color: #999;
+  font-family: Arial;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+
+  img {
+    float: left;
+    width: 33%;
+    padding-right: 14px;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 14px;
+    color: #666;
+  }
+
+  button {
+    background: blue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background: darkblue !important;
+    }
+  }
+}
+
+.product-card div {
+  position: absolute;
+  top: 8px;
+  right: 1rem;
+}

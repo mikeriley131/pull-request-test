@@ -1,4 +1,3 @@
-// import image from '/image.jpg'; // in public folder
 import Layout from './components/Layout';
 import ProductCard from './components/ProductCard';
 
@@ -8,7 +7,7 @@ function App() {
   return (
     <Layout>
       <h2>Products List</h2>
-      <ul>
+      <ul className="product-list" aria-label="Product List">
         {productData.map((item) => (
           <ProductCard productData={item} />
         ))}
