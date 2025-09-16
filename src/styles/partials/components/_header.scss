@@ -1,0 +1,12 @@
+// ===========================================================================
+// ==== HEADER
+// ===========================================================================
+.header {
+  background-color: $white;
+  margin-bottom: 2rem;
+  > .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
